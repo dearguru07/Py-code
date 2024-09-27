@@ -97,12 +97,30 @@
 # Leep(n)        
 
 
-def reverse_string(s):
-    reversed_s = ''
-    for char in s:
-        reversed_s = char + reversed_s
-    return reversed_s
-input_string = "Reverse this string"
-reversed_string = reverse_string(input_string)
-print(reversed_string)
+# def reverse_string(s):
+#     reversed_s = ''
+#     for char in s:
+#         reversed_s = char + reversed_s
+#     return reversed_s
+# input_string = input('enter a strg')
+# reversed_string = reverse_string(input_string)
+# print(reversed_string)
+# if input_string==reversed_string:
+#     print('poly')
+# else:
+#     print('not poly')
 
+
+
+def Reverse(n):
+    str=''
+    for i in n:
+        str=i+str
+    return str
+given=str(input('enter a string'))    
+Reversed=Reverse(given)
+print(Reversed)
+if given==Reversed:
+    print('polyndrome')
+else:
+    print('not a polyndrm')    
