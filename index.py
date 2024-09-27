@@ -117,10 +117,10 @@ def Reverse(n):
     for i in n:
         str=i+str
     return str
-given=str(input('enter a string'))    
-Reversed=Reverse(given)
+n=str(input('enter a string'))    
+Reversed=Reverse(n)
 print(Reversed)
-if given==Reversed:
+if n==Reversed:
     print('polyndrome')
 else:
     print('not a polyndrm')    
