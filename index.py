@@ -1,43 +1,46 @@
-def Prime(n):
-    tem=True
-    er=n//2
-    for i in range(2,er+1):
-        if n%i==0:
-            tem=False
-            break
-    if tem==True:
-        print('prime')    
-    else:
-        print('not prime')    
-n=int(input('enter a number'))        
-Prime(n)
+# def Prime(n):
+#     tem=True;
+#     er=n//2;
+#     for i in range(2,er+1):
+#         if n%i==0:
+#             tem=False
+#             break
+#     if tem==True:
+#         print('prime')    
+#     else:
+#         print('not prime')    
+# n=int(input('enter a number'))        
+# Prime(n)
 
 
-def Prime(n):
-    tem=True
-    er=n//2
-    for i in range(2,er+1):
-        if n%i==0:
-            tem=False
-            break
-    if tem==True:
-        print('prime')    
-    else:
-        print('not prime')    
-n=int(input('enter a number'))        
-Prime(n)def Prime(n):
-    tem=True
-    er=n//2
-    for i in range(2,er+1):
-        if n%i==0:
-            tem=False
-            break
-    if tem==True:
-        print('prime')    
-    else:
-        print('not prime')    
-n=int(input('enter a number'))        
-Prime(n)vv
+# def Prime(n):
+#     tem=True
+#     er=n//2
+#     for i in range(2,er+1):
+#         if n%i==0:
+#             tem=False
+#             break
+#     if tem==True:
+#         print('prime')    
+#     else:
+#         print('not prime')    
+# n=int(input('enter a number'))        
+# Prime(n)
+
+
+# def Prime(n):
+#     tem=True
+#     er=n//2
+#     for i in range(2,er+1):
+#         if n%i==0:
+#             tem=False
+#             break
+#     if tem==True:
+#         print('prime')    
+#     else:
+#         print('not prime')    
+# n=int(input('enter a number'))        
+# Prime(n)
 
 # def Count(n):
 #     countD=0
