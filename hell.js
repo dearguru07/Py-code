@@ -51,9 +51,18 @@
 
 
 let n = 15;
-function Hello(x) {
-    if (x > n) return;
+// function Hello(x) {
+//     if (x > n) return;
+//     console.log(x);
+//     Hello(++x);
+// }
+// Hello(1)
+
+
+
+function Namste(x) {
+    if (x == n) return;
     console.log(x);
-    Hello(++x);
+    Namste(++x);
 }
-Hello(1)
+Namste(1)
